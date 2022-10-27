@@ -1,0 +1,42 @@
+.quote {
+  background-color: #162b2b;
+  color: white;
+  border-radius: 6px;
+  padding: 3rem;
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.quote p {
+  font-size: 2.5rem;
+}
+
+.quote figcaption {
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: right;
+  color: #a1e0e0;
+}
+
+.actions {
+  text-align: center;
+}
+
+.actions button {
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #e6fcfc;
+  color: teal;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #e6fcfc;
+  cursor: pointer;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: teal;
+  color: white;
+  border-color: #11acac;
+}
